@@ -6,4 +6,4 @@ def main(list1):
     Returns:
         list: return answer.
     """
-    return list[::3]
+    return list1[::3]
