@@ -8,3 +8,5 @@ def main(list1,n):
         list: return answer.
     """
     return list1[n:][::-1]
+a = ['a', 'b',  'c',  'd', 'e', 'f']
+print(main(a,3))
