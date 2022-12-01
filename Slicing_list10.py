@@ -7,4 +7,4 @@ def main(list1,n):
     Returns:
         list: return answer.
     """
-    return numbers[::2]
+    return list1[n:][::-1]
